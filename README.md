@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# CHROME EXTENSION FOR PRODUCTIVITY MANAGEMENT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+COMPANY : CODTECH IT SOLUTIONS
 
-## Available Scripts
+NAME : SOORYAPRIYA S
 
-In the project directory, you can run:
+INTERN ID : CT04DH188
 
-### `npm start`
+DOMAIN : MERN STACK WEB DEVELOPMENT
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+DURATION : 4 WEEKS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+MENTOR : NEELA SANTOSH
 
-### `npm test`
+   Developing a Chrome extension for productivity management blends front-end web technologies with browser-specific APIs, creating tools that integrate directly into a user’s browsing experience. Task 4 involves building an extension to track and manage how much time users spend on different websites, helping them maintain focus and avoid distractions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project typically starts by defining a manifest file (manifest.json) that tells Chrome about the extension’s name, permissions, background scripts, icons, and UI elements like popups or browser actions. The manifest specifies which APIs the extension can access — for this task, permissions like tabs, history, and storage are crucial.
 
-### `npm run build`
+The extension’s background script, often written in JavaScript, continuously listens for browser events. For a productivity tracker, the extension uses chrome.tabs or chrome.webNavigation APIs to detect when users navigate to a new website. Each URL and timestamp is logged into Chrome’s local storage or sync storage, ensuring that data persists between sessions or across devices if sync is enabled.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Developers might build a popup interface with HTML, CSS, and JavaScript (or frameworks like React if using tools like CRXJS) to display statistics. Users can view dashboards showing which sites they visited, time spent on each, and perhaps graphs visualizing their daily habits. Libraries like Chart.js or Recharts can help render such visual analytics.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To further enhance the extension, developers can integrate their extension with a backend. For example, the extension might send browsing data to a Node.js + Express server, which stores records in MongoDB. This allows users to track habits over longer periods or across multiple devices securely. This server could also support user accounts, letting users log in and manage their productivity data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For development and testing, developers load the unpacked extension into Chrome via the chrome://extensions page, where they can enable developer mode and test features without publishing to the Chrome Web Store.
 
-### `npm run eject`
+Practical uses for such a productivity management extension include:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Blocking distracting websites after certain limits
+* Generating reports for self-monitoring work habits
+* Assisting parents in monitoring children’s online time
+* Helping remote teams manage and report online activity
+* Supporting users with time-management goals
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Chrome extensions are an excellent example of creating highly personalized tools that integrate seamlessly into everyday browsing habits. They demonstrate developers’ skills in manipulating browser APIs, handling asynchronous events, and designing compact, efficient user interfaces.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Moreover, building a Chrome extension involves unique deployment processes, such as packaging the extension, submitting it to the Chrome Web Store, and adhering to Google’s privacy and data usage policies.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Completing Task 4 helps developers gain practical experience in bridging frontend skills with browser-native APIs, understanding security implications in browser contexts, and creating tools that directly impact user behavior and productivity.
 
-## Learn More
+# OUTPUT
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
