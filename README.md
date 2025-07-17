@@ -40,3 +40,6 @@ Completing Task 4 helps developers gain practical experience in bridging fronten
 
 # OUTPUT
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/227e3ef6-801e-4b19-9a63-4298610b4a34" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/14f6d960-bbf1-40c3-8a5d-f96090198d5f" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/82ed939d-c15d-48d1-ae7c-19ca5b84e42e" />
